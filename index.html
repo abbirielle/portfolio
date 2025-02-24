@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
         <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width,initial-scale=1.0">
                 <title>Portfolio - Projects by Abbirielle</title>
+        <style>
+            /*Styling navigation links*/
+            nav a {
+                text-decoration: none;
+                color: #333;
+                padding: 10px;
+                transition: color 0.3s ease, transform 0.3s ease;
+            }
+            nav a:hover {
+                color: #0066cc;
+                transition:color 0.3s ease, text-decoration 0.3s ease;
+            }
+            /* Adding transitions to project links */
+            dl a {
+                color: #ff6600;
+                text-decoration: underline;
+            }
+            /* Using nth-child selector for styling */
+            dt:nth-child(odd) {
+                font-weight: bold;
+                color: #0044cc;
+            }
+            dt:nth-child(even) {
+                font-weight: bold;
+                color: #cc4400;
+            }
+            dd {
+                margin-bottom: 10px;
+            }
+            </style>
     </head>
     <body>
         <nav>
